@@ -5,7 +5,7 @@ Sable is a two-part protocol exploring what tokenized equity infrastructure look
 1. **Launch** — a tokenized stock (sTSLA) issued via Meteora's Dynamic Bonding Curve (DBC), with a curve configuration deliberately tuned for equity-style price discovery rather than memecoin speculation.
 2. **Borrow** — a lending protocol that lets holders instantly borrow stablecoins against their tokenized stock as collateral, 24/7, with no credit check and no waiting for market hours.
 
-Built for [Hackathon Name] — Solana Foundation tokenized stocks track, and submitted for Meteora's "Best Use of DBC" bounty.
+Built for [stocklana] — Solana Foundation tokenized stocks track, and submitted for Meteora's "Best Use of DBC" bounty.
 
 ---
 
