@@ -22,6 +22,7 @@ export function useDbcPool() {
       if (!poolAccount) throw new Error('Pool not found')
 
       const poolConfigState = await client.state.getPoolConfig(poolAccount.poolState.config)
+      if (!poolConfigState) throw new Error('Pool config not found')
 
       // quote a tiny 0.001 SOL buy just to read the implied price
       const quote = client.pool.swapQuote({
